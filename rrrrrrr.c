@@ -8,9 +8,13 @@ if(a>b)
 {
 printf("the given number is positive");
 }
-else
+elseif
 {
 printf("the given number is negative");
+}
+else
+{
+  printf("the given number is zero");
 }
 return0;
 }
